@@ -61,7 +61,7 @@ var radius = 6;
 var bezierCurve = [];
 var move = false;
 var index = -1;
-var t = Number(prompt("Selecione o Valor de T: ", ""));
+var t = Number(prompt("Selecione o Valor de T (default = 0.05): ", "")) || 0.05;
 var maxSizeSlider = 1/t - 1;
 
 /*
